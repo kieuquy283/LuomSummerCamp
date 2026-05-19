@@ -1,5 +1,4 @@
-﻿import React from 'react';
-import { Presentation, ClipboardCheck, Users, CheckCircle2, ChevronRight } from 'lucide-react';
+﻿import { Presentation, ClipboardCheck, Users, CheckCircle2, ChevronRight } from 'lucide-react';
 
 const InstructorRecruitment = () => {
   return (
@@ -93,3 +92,5 @@ const InstructorRecruitment = () => {
 };
 
 export default InstructorRecruitment;
+
+

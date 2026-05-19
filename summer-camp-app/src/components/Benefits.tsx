@@ -1,33 +1,32 @@
-import React from 'react';
-import { Presentation, TrendingUp, Users, Award } from 'lucide-react';
+﻿import { Presentation, TrendingUp, Users, Award } from 'lucide-react';
 
 const Benefits = () => {
   const benefits = [
     {
       icon: <Presentation className="w-8 h-8 text-brand-electric" />,
-      title: 'Trải nghiệm thực chiến',
-      description: 'Trực tiếp đứng lớp, thiết kế bài giảng và hỗ trợ nâng cao năng lực số cho các em học sinh khối THCS.',
+      title: 'Tráº£i nghiá»‡m thá»±c chiáº¿n',
+      description: 'Trá»±c tiáº¿p Ä‘á»©ng lá»›p, thiáº¿t káº¿ bÃ i giáº£ng vÃ  há»— trá»£ nÃ¢ng cao nÄƒng lá»±c sá»‘ cho cÃ¡c em há»c sinh khá»‘i THCS.',
       borderColor: 'border-brand-electric',
       bgColor: 'bg-brand-electric/5'
     },
     {
       icon: <TrendingUp className="w-8 h-8 text-brand-cyan" />,
-      title: 'Phát triển kỹ năng',
-      description: 'Rèn luyện kỹ năng sư phạm thực tế, năng lực giao tiếp, làm việc nhóm và quản lý lớp học.',
+      title: 'PhÃ¡t triá»ƒn ká»¹ nÄƒng',
+      description: 'RÃ¨n luyá»‡n ká»¹ nÄƒng sÆ° pháº¡m thá»±c táº¿, nÄƒng lá»±c giao tiáº¿p, lÃ m viá»‡c nhÃ³m vÃ  quáº£n lÃ½ lá»›p há»c.',
       borderColor: 'border-brand-cyan',
       bgColor: 'bg-brand-cyan/5'
     },
     {
       icon: <Users className="w-8 h-8 text-green-500" />,
-      title: 'Mở rộng kết nối',
-      description: 'Gặp gỡ, giao lưu và làm việc cùng những người bạn trẻ nhiệt huyết, chung chí hướng trong màu áo xanh tình nguyện.',
+      title: 'Má»Ÿ rá»™ng káº¿t ná»‘i',
+      description: 'Gáº·p gá»¡, giao lÆ°u vÃ  lÃ m viá»‡c cÃ¹ng nhá»¯ng ngÆ°á»i báº¡n tráº» nhiá»‡t huyáº¿t, chung chÃ­ hÆ°á»›ng trong mÃ u Ã¡o xanh tÃ¬nh nguyá»‡n.',
       borderColor: 'border-green-500',
       bgColor: 'bg-green-500/5'
     },
     {
       icon: <Award className="w-8 h-8 text-brand-yellow" />,
-      title: 'Ghi nhận đóng góp',
-      description: 'Được tập huấn trước khi tham gia và nhận Chứng nhận đóng góp tích cực cho cộng đồng từ Đoàn thanh niên phường Vĩnh Phúc.',
+      title: 'Ghi nháº­n Ä‘Ã³ng gÃ³p',
+      description: 'ÄÆ°á»£c táº­p huáº¥n trÆ°á»›c khi tham gia vÃ  nháº­n Chá»©ng nháº­n Ä‘Ã³ng gÃ³p tÃ­ch cá»±c cho cá»™ng Ä‘á»“ng tá»« ÄoÃ n thanh niÃªn phÆ°á»ng VÄ©nh PhÃºc.',
       borderColor: 'border-brand-yellow',
       bgColor: 'bg-brand-yellow/5'
     }
@@ -38,7 +37,7 @@ const Benefits = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center max-w-3xl mx-auto mb-16">
           <h2 className="text-3xl md:text-4xl font-bold text-brand-navy mb-4">
-            Tại sao bạn nên tham gia?
+            Táº¡i sao báº¡n nÃªn tham gia?
           </h2>
           <div className="w-24 h-1 bg-brand-cyan mx-auto rounded-full"></div>
         </div>
@@ -65,3 +64,5 @@ const Benefits = () => {
 };
 
 export default Benefits;
+
+

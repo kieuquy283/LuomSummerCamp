@@ -1,5 +1,4 @@
-﻿import React from 'react';
-import { MapPin, Phone, Globe } from 'lucide-react';
+﻿import { MapPin, Phone, Globe } from 'lucide-react';
 
 const Footer = () => {
   return (
@@ -8,7 +7,7 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 mb-12">
           <div className="lg:col-span-1">
             <div className="flex items-center flex-shrink-0 mb-6">
-              <img src="/logo_round.png" alt="Logo Bình dân học vụ số" className="w-10 h-10 rounded-full object-cover mr-3" />
+              <img src="/images/logo_round.png" alt="Logo Bình dân học vụ số" className="w-10 h-10 rounded-full object-cover mr-3" />
               <div className="flex flex-col">
                 <span className="text-white font-bold text-lg leading-tight tracking-wide">
                   Đội Bình dân học vụ số
@@ -74,3 +73,6 @@ const Footer = () => {
 };
 
 export default Footer;
+
+
+

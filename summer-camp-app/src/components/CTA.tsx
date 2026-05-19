@@ -1,5 +1,4 @@
-﻿import React from 'react';
-import { HeartHandshake, ArrowRight } from 'lucide-react';
+﻿import { HeartHandshake, ArrowRight } from 'lucide-react';
 
 const CTA = () => {
   return (
@@ -40,3 +39,5 @@ const CTA = () => {
 };
 
 export default CTA;
+
+

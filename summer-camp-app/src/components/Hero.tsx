@@ -1,5 +1,4 @@
-﻿import React from 'react';
-import { MapPin, Calendar, Rocket, Users, ChevronRight, Shield, Cpu, MessageSquareText, Lock } from 'lucide-react';
+﻿import { MapPin, Calendar, Rocket, Users, ChevronRight, Shield, Cpu, MessageSquareText, Lock } from 'lucide-react';
 
 const Hero = () => {
   return (
@@ -118,3 +117,5 @@ const Hero = () => {
 };
 
 export default Hero;
+
+

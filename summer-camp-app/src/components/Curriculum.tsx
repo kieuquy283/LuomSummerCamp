@@ -1,12 +1,11 @@
-import React from 'react';
-import { Brain, Sparkles, ShieldAlert, Rocket } from 'lucide-react';
+﻿import { Brain, Sparkles, ShieldAlert, Rocket } from 'lucide-react';
 
 const Curriculum = () => {
   const weeks = [
     {
       week: 1,
-      title: 'Làm quen với AI',
-      description: 'AI là gì, AI xuất hiện ở đâu, trải nghiệm công cụ AI cơ bản.',
+      title: 'LÃ m quen vá»›i AI',
+      description: 'AI lÃ  gÃ¬, AI xuáº¥t hiá»‡n á»Ÿ Ä‘Ã¢u, tráº£i nghiá»‡m cÃ´ng cá»¥ AI cÆ¡ báº£n.',
       icon: <Brain className="w-6 h-6 text-brand-electric" />,
       color: 'bg-brand-electric',
       lightColor: 'bg-brand-electric/10',
@@ -14,8 +13,8 @@ const Curriculum = () => {
     },
     {
       week: 2,
-      title: 'Sử dụng AI trong học tập',
-      description: 'Cách đặt prompt tốt, tóm tắt bài học, tìm ý tưởng, tư duy phản biện.',
+      title: 'Sá»­ dá»¥ng AI trong há»c táº­p',
+      description: 'CÃ¡ch Ä‘áº·t prompt tá»‘t, tÃ³m táº¯t bÃ i há»c, tÃ¬m Ã½ tÆ°á»Ÿng, tÆ° duy pháº£n biá»‡n.',
       icon: <Sparkles className="w-6 h-6 text-purple-500" />,
       color: 'bg-purple-500',
       lightColor: 'bg-purple-500/10',
@@ -23,8 +22,8 @@ const Curriculum = () => {
     },
     {
       week: 3,
-      title: 'An toàn thông tin trong AI',
-      description: 'Thông tin cá nhân, tin giả, deepfake, lừa đảo, link độc hại.',
+      title: 'An toÃ n thÃ´ng tin trong AI',
+      description: 'ThÃ´ng tin cÃ¡ nhÃ¢n, tin giáº£, deepfake, lá»«a Ä‘áº£o, link Ä‘á»™c háº¡i.',
       icon: <ShieldAlert className="w-6 h-6 text-green-500" />,
       color: 'bg-green-500',
       lightColor: 'bg-green-500/10',
@@ -32,8 +31,8 @@ const Curriculum = () => {
     },
     {
       week: 4,
-      title: 'Mini Project cuối khóa',
-      description: 'Thiết kế poster, bài thuyết trình hoặc sản phẩm nhỏ ứng dụng AI.',
+      title: 'Mini Project cuá»‘i khÃ³a',
+      description: 'Thiáº¿t káº¿ poster, bÃ i thuyáº¿t trÃ¬nh hoáº·c sáº£n pháº©m nhá» á»©ng dá»¥ng AI.',
       icon: <Rocket className="w-6 h-6 text-brand-yellow" />,
       color: 'bg-brand-yellow',
       lightColor: 'bg-brand-yellow/10',
@@ -46,7 +45,7 @@ const Curriculum = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center max-w-3xl mx-auto mb-16">
           <h2 className="text-3xl md:text-4xl font-bold text-brand-navy mb-4">
-            Học sinh sẽ học gì trong 4 tuần?
+            Há»c sinh sáº½ há»c gÃ¬ trong 4 tuáº§n?
           </h2>
           <div className="w-24 h-1 bg-brand-cyan mx-auto rounded-full"></div>
         </div>
@@ -73,7 +72,7 @@ const Curriculum = () => {
                   
                   {/* Mobile Only Header inside flex */}
                   <div className="lg:hidden ml-6 flex-1">
-                    <h3 className={`text-xl font-bold ${item.textColor}`}>Tuần {item.week}</h3>
+                    <h3 className={`text-xl font-bold ${item.textColor}`}>Tuáº§n {item.week}</h3>
                     <p className="text-lg font-semibold text-brand-navy">{item.title}</p>
                   </div>
                 </div>
@@ -84,7 +83,7 @@ const Curriculum = () => {
                   <div className={`absolute -right-6 -top-6 w-24 h-24 rounded-full ${item.lightColor} opacity-50`}></div>
                   
                   <div className="hidden lg:block text-center mb-4 relative z-10">
-                    <h3 className={`text-lg font-bold ${item.textColor} mb-1`}>Tuần {item.week}</h3>
+                    <h3 className={`text-lg font-bold ${item.textColor} mb-1`}>Tuáº§n {item.week}</h3>
                     <p className="text-xl font-bold text-brand-navy min-h-[56px] flex items-center justify-center">{item.title}</p>
                   </div>
                   
@@ -108,3 +107,5 @@ const Curriculum = () => {
 };
 
 export default Curriculum;
+
+

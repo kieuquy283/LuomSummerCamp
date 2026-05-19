@@ -1,8 +1,6 @@
-﻿import React from 'react';
-import Header from './components/Header';
+﻿import Header from './components/Header';
 import Hero from './components/Hero';
 import Benefits from './components/Benefits';
-import ProgramInfo from './components/ProgramInfo';
 import InstructorRecruitment from './components/InstructorRecruitment';
 import FAQ from './components/FAQ';
 import CTA from './components/CTA';
@@ -25,5 +23,7 @@ function App() {
 }
 
 export default App;
+
+
 
 
