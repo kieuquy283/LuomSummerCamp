@@ -17,9 +17,7 @@ const Header = () => {
         <div className="flex justify-between items-center h-20">
           {/* Logo */}
           <div className="flex items-center flex-shrink-0 cursor-pointer">
-            <div className="relative flex items-center justify-center w-10 h-10 rounded-lg bg-brand-yellow/10 border border-brand-yellow/20 mr-3">
-              <Shield className="w-6 h-6 text-brand-yellow" />
-            </div>
+            <img src="/logo_round.png" alt="Logo Bình dân học vụ số" className="w-10 h-10 rounded-full object-cover mr-3" />
             <div className="flex flex-col">
               <span className="text-white font-bold text-lg leading-tight tracking-wide uppercase">
                 Bình dân học vụ số
