@@ -59,7 +59,7 @@ const InstructorRecruitment = () => {
               </div>
               <div>
                 <h3 className="text-xl md:text-2xl font-bold text-white leading-snug">TNV Trợ giảng & Điều phối lớp học</h3>
-                <p className="text-brand-yellow text-sm mt-1">Số lượng: 03 người</p>
+                <p className="text-brand-yellow text-sm mt-1">Số lượng: 06 người</p>
               </div>
             </div>
             
