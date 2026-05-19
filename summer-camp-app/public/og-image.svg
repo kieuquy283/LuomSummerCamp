@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a"/> <!-- slate-900 -->
+      <stop offset="50%" stop-color="#1e3a8a"/> <!-- blue-900 -->
+      <stop offset="100%" stop-color="#0891b2"/> <!-- cyan-600 -->
+    </linearGradient>
+    <linearGradient id="text-gradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#fbbf24"/> <!-- amber-400 (phong cách Lượm) -->
+      <stop offset="100%" stop-color="#fcd34d"/> <!-- amber-300 -->
+    </linearGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="4" stdDeviation="6" flood-color="#000000" flood-opacity="0.3"/>
+    </filter>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  
+  <!-- Decorative elements -->
+  <circle cx="1100" cy="100" r="150" fill="#38bdf8" opacity="0.1"/>
+  <circle cx="100" cy="500" r="200" fill="#38bdf8" opacity="0.1"/>
+  <path d="M 0 630 L 1200 350 L 1200 630 Z" fill="#38bdf8" opacity="0.05"/>
+  <path d="M 0 0 L 800 0 L 0 400 Z" fill="#fbbf24" opacity="0.03"/>
+
+  <!-- Logo text proxy -->
+  <text x="80" y="100" font-family="'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="32" font-weight="bold" fill="#38bdf8" letter-spacing="2">LƯỢM SUMMER CAMP</text>
+
+  <!-- Main Title -->
+  <text x="80" y="220" font-family="'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="76" font-weight="900" fill="#ffffff" filter="url(#shadow)">Đội Bình Dân Học Vụ Số</text>
+  
+  <!-- Subtitle -->
+  <text x="80" y="320" font-family="'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="48" font-weight="800" fill="url(#text-gradient)" filter="url(#shadow)">Tuyển tình nguyện viên hè 2026</text>
+  
+  <!-- Description -->
+  <text x="80" y="420" font-family="'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="36" font-weight="600" fill="#e2e8f0">Cùng học sinh THCS nâng cao năng lực số</text>
+
+  <!-- Details -->
+  <!-- Box background for details -->
+  <rect x="80" y="480" width="1040" height="90" rx="16" fill="rgba(255, 255, 255, 0.1)" stroke="rgba(255, 255, 255, 0.2)" stroke-width="2"/>
+  
+  <text x="110" y="535" font-family="'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="28" font-weight="600" fill="#ffffff">📍 Trường THCS Tô Hiệu</text>
+  <text x="470" y="535" font-family="'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="28" font-weight="600" fill="#ffffff">📅 Lớp 6–8 • 2 buổi/tuần • 4 tuần</text>
+  
+  <!-- Contact -->
+  <text x="880" y="535" font-family="'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="28" font-weight="bold" fill="#fbbf24">📞 Zalo: 0968.397.725</text>
+</svg>
