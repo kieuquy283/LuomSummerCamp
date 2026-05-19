@@ -1,4 +1,4 @@
-﻿import { MapPin, Calendar, Rocket, Users, ChevronRight, Shield, Cpu, MessageSquareText, Lock } from 'lucide-react';
+import { MapPin, Calendar, Rocket, Users, ChevronRight, Shield, Cpu, MessageSquareText, Lock } from 'lucide-react';
 
 const Hero = () => {
   return (
@@ -27,7 +27,7 @@ const Hero = () => {
 
             <div className="flex flex-col sm:flex-row items-center justify-center lg:justify-start space-y-4 sm:space-y-0 sm:space-x-4 mb-12">
               <a href="#tuyen-giang-vien" className="w-full sm:w-auto inline-flex items-center justify-center px-8 py-3.5 bg-brand-yellow hover:bg-brand-yellow-hover text-white font-bold rounded-full shadow-[0_0_20px_rgba(251,191,36,0.4)] transition-all hover:-translate-y-1">
-                Vị trí tuyển dụng
+                Vị trí tìm kiếm
               </a>
               <a href="#loi-ich" className="w-full sm:w-auto px-8 py-3.5 bg-transparent hover:bg-white/5 border border-slate-500 hover:border-white text-white font-medium rounded-full transition-all flex items-center justify-center group">
                 Tìm hiểu chương trình

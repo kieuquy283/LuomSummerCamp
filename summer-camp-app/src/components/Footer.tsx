@@ -1,4 +1,4 @@
-﻿import { MapPin, Phone, Globe } from 'lucide-react';
+import { MapPin, Phone, Globe } from 'lucide-react';
 
 const Footer = () => {
   return (
@@ -25,8 +25,8 @@ const Footer = () => {
           <div>
             <h4 className="text-white font-bold mb-6 uppercase tracking-wider text-sm">Chương trình</h4>
             <ul className="space-y-3">
-              <li><a href="#loi-ich" className="text-slate-400 hover:text-brand-cyan transition-colors text-sm">Tại sao nên tham gia?</a></li>
-              <li><a href="#tuyen-giang-vien" className="text-slate-400 hover:text-brand-cyan transition-colors text-sm">Vị trí tuyển dụng</a></li>
+              <li><a href="#loi-ich" className="text-slate-400 hover:text-brand-cyan transition-colors text-sm">Quyền lợi</a></li>
+              <li><a href="#tuyen-giang-vien" className="text-slate-400 hover:text-brand-cyan transition-colors text-sm">Vị trí tìm kiếm</a></li>
               <li><a href="https://forms.gle/U1ryjVPUWGEJPEq27" target="_blank" rel="noopener noreferrer" className="text-slate-400 hover:text-brand-cyan transition-colors text-sm">Ứng tuyển ngay</a></li>
               <li><a href="#faq" className="text-slate-400 hover:text-brand-cyan transition-colors text-sm">Câu hỏi thường gặp</a></li>
             </ul>

@@ -1,4 +1,4 @@
-﻿import { useState } from 'react';
+import { useState } from 'react';
 import { Menu, X } from 'lucide-react';
 
 const Header = () => {
@@ -6,8 +6,8 @@ const Header = () => {
 
   const navLinks = [
     { name: 'Giới thiệu', href: '#' },
-    { name: 'Vì sao tham gia', href: '#loi-ich' },
-    { name: 'Vị trí tuyển dụng', href: '#tuyen-giang-vien' },
+    { name: 'Quyền lợi', href: '#loi-ich' },
+    { name: 'Vị trí tìm kiếm', href: '#tuyen-giang-vien' },
     { name: 'FAQ', href: '#faq' },
   ];
 

@@ -1,4 +1,4 @@
-﻿import { Presentation, ClipboardCheck, Users, CheckCircle2, ChevronRight } from 'lucide-react';
+import { Presentation, ClipboardCheck, Users, CheckCircle2, ChevronRight } from 'lucide-react';
 
 const InstructorRecruitment = () => {
   return (
@@ -9,7 +9,7 @@ const InstructorRecruitment = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
         <div className="text-center max-w-3xl mx-auto mb-16">
           <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">
-            Vị trí <span className="text-brand-yellow">tuyển dụng</span>
+            Vị trí <span className="text-brand-yellow">tìm kiếm</span>
           </h2>
           <div className="w-24 h-1 bg-brand-cyan mx-auto rounded-full"></div>
         </div>
