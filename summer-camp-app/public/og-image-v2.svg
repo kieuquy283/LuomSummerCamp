@@ -1,0 +1,89 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="630" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#071426"/>
+      <stop offset="0.42" stop-color="#10276B"/>
+      <stop offset="1" stop-color="#0496B7"/>
+    </linearGradient>
+    <linearGradient id="cyan" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#22D3EE"/>
+      <stop offset="1" stop-color="#2563EB"/>
+    </linearGradient>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="10" result="coloredBlur"/>
+      <feMerge><feMergeNode in="coloredBlur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="10" stdDeviation="12" flood-color="#000000" flood-opacity="0.35"/>
+    </filter>
+    <pattern id="grid" width="78" height="68" patternUnits="userSpaceOnUse">
+      <path d="M39 0L78 22V66L39 88L0 66V22L39 0Z" stroke="#1F3B76" stroke-opacity="0.22" stroke-width="1"/>
+    </pattern>
+    <style>
+      .font { font-family: 'Be Vietnam Pro', 'Inter', 'Segoe UI', Arial, sans-serif; }
+      .label { font-weight: 800; letter-spacing: 6px; fill: #22D3EE; }
+      .headline { font-weight: 900; fill: #FFFFFF; }
+      .yellow { font-weight: 900; fill: #FBBF24; }
+      .body { font-weight: 600; fill: #EAF7FF; }
+      .info { font-weight: 800; fill: #FFFFFF; }
+    </style>
+  </defs>
+
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <rect width="1200" height="630" fill="url(#grid)" opacity="0.55"/>
+
+  <circle cx="-30" cy="-45" r="175" stroke="#00C2FF" stroke-opacity="0.45" stroke-width="2"/>
+  <circle cx="75" cy="82" r="9" fill="#22D3EE" filter="url(#glow)"/>
+  <circle cx="1020" cy="80" r="105" fill="#2563EB" opacity="0.18"/>
+  <circle cx="1010" cy="405" r="165" stroke="#00C2FF" stroke-opacity="0.32" stroke-width="2"/>
+  <path d="M0 610C210 565 413 550 641 574C848 596 1013 558 1200 480V630H0V610Z" fill="#00C2FF" opacity="0.13"/>
+
+  <!-- decorative dots -->
+  <g opacity="0.35" fill="#22D3EE">
+    <circle cx="1060" cy="54" r="2.5"/><circle cx="1080" cy="54" r="2.5"/><circle cx="1100" cy="54" r="2.5"/><circle cx="1120" cy="54" r="2.5"/><circle cx="1140" cy="54" r="2.5"/>
+    <circle cx="1060" cy="74" r="2.5"/><circle cx="1080" cy="74" r="2.5"/><circle cx="1100" cy="74" r="2.5"/><circle cx="1120" cy="74" r="2.5"/><circle cx="1140" cy="74" r="2.5"/>
+    <circle cx="1060" cy="94" r="2.5"/><circle cx="1080" cy="94" r="2.5"/><circle cx="1100" cy="94" r="2.5"/><circle cx="1120" cy="94" r="2.5"/><circle cx="1140" cy="94" r="2.5"/>
+    <circle cx="20" cy="440" r="2.5"/><circle cx="40" cy="440" r="2.5"/><circle cx="60" cy="440" r="2.5"/><circle cx="80" cy="440" r="2.5"/><circle cx="100" cy="440" r="2.5"/>
+    <circle cx="20" cy="460" r="2.5"/><circle cx="40" cy="460" r="2.5"/><circle cx="60" cy="460" r="2.5"/><circle cx="80" cy="460" r="2.5"/><circle cx="100" cy="460" r="2.5"/>
+    <circle cx="20" cy="480" r="2.5"/><circle cx="40" cy="480" r="2.5"/><circle cx="60" cy="480" r="2.5"/><circle cx="80" cy="480" r="2.5"/><circle cx="100" cy="480" r="2.5"/>
+  </g>
+
+  <!-- floating tech cards -->
+  <g filter="url(#shadow)">
+    <rect x="935" y="92" width="140" height="140" rx="28" transform="rotate(-7 935 92)" fill="#0A1F44" stroke="#22D3EE" stroke-width="2" opacity="0.96"/>
+    <rect x="973" y="130" width="64" height="64" rx="15" transform="rotate(-7 973 130)" fill="#123E70"/>
+    <path d="M1001 151h31v31h-31z" stroke="#22D3EE" stroke-width="5" transform="rotate(-7 1001 151)"/>
+    <path d="M992 159h9M992 172h9M1032 159h9M1032 172h9M1008 142v9M1022 142v9M1008 182v9M1022 182v9" stroke="#22D3EE" stroke-width="4" stroke-linecap="round" transform="rotate(-7 1016 166)"/>
+  </g>
+  <g filter="url(#shadow)">
+    <rect x="1000" y="275" width="145" height="145" rx="28" transform="rotate(8 1000 275)" fill="#0A1F44" stroke="#2563EB" stroke-width="2" opacity="0.98"/>
+    <path d="M1072 315l38 15v28c0 27-18 43-38 53-20-10-38-26-38-53v-28l38-15z" stroke="#3B82F6" stroke-width="6" fill="none" transform="rotate(8 1072 363)"/>
+    <rect x="1057" y="359" width="32" height="25" rx="5" stroke="#FBBF24" stroke-width="5" transform="rotate(8 1073 371.5)"/>
+    <path d="M1064 358v-10a10 10 0 0120 0v10" stroke="#FBBF24" stroke-width="5" stroke-linecap="round" transform="rotate(8 1074 353)"/>
+  </g>
+
+  <!-- main copy -->
+  <text x="66" y="152" class="font label" font-size="32">LƯỢM SUMMER CAMP</text>
+  <text x="66" y="274" class="font headline" font-size="78">Đội Bình Dân Học Vụ Số</text>
+  <text x="66" y="368" class="font yellow" font-size="52">Tuyển tình nguyện viên hè 2026</text>
+  <text x="66" y="444" class="font body" font-size="34">Cùng học sinh THCS nâng cao năng lực số</text>
+
+  <!-- info bar -->
+  <g filter="url(#shadow)">
+    <rect x="66" y="492" width="1068" height="86" rx="20" fill="#123057" fill-opacity="0.74" stroke="#78DFFF" stroke-opacity="0.55" stroke-width="1.5"/>
+    <line x1="397" y1="512" x2="397" y2="558" stroke="#22D3EE" stroke-opacity="0.55"/>
+    <line x1="814" y1="512" x2="814" y2="558" stroke="#22D3EE" stroke-opacity="0.55"/>
+    <circle cx="111" cy="535" r="30" fill="#07385F" stroke="#22D3EE" stroke-width="2" filter="url(#glow)"/>
+    <path d="M111 518c-10 0-18 8-18 18 0 14 18 28 18 28s18-14 18-28c0-10-8-18-18-18zm0 24a6 6 0 110-12 6 6 0 010 12z" fill="#22D3EE"/>
+    <text x="160" y="547" class="font info" font-size="27">Trường THCS Tô Hiệu</text>
+
+    <circle cx="450" cy="535" r="30" fill="#07385F" stroke="#22D3EE" stroke-width="2" filter="url(#glow)"/>
+    <rect x="438" y="526" width="24" height="23" rx="2" stroke="#22D3EE" stroke-width="3"/>
+    <path d="M438 533h24M444 520v10M456 520v10" stroke="#22D3EE" stroke-width="3" stroke-linecap="round"/>
+    <text x="499" y="547" class="font info" font-size="27">Lớp 6–8 • 2 buổi/tuần • 4 tuần</text>
+
+    <circle cx="866" cy="535" r="30" fill="#0EA5E9" filter="url(#glow)"/>
+    <text x="845" y="543" class="font" font-size="18" font-weight="900" fill="#071426">Zalo</text>
+    <text x="917" y="547" class="font yellow" font-size="27">Zalo: 0968.397.725</text>
+  </g>
+</svg>
