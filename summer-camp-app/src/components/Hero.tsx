@@ -1,10 +1,9 @@
-import React from 'react';
+﻿import React from 'react';
 import { MapPin, Calendar, Rocket, Users, ChevronRight, Shield, Cpu, MessageSquareText, Lock } from 'lucide-react';
 
 const Hero = () => {
   return (
     <section className="relative bg-brand-navy pt-20 pb-24 overflow-hidden">
-      {/* Background Elements */}
       <div className="absolute inset-0 z-0">
         <div className="absolute top-[-10%] left-[-10%] w-[40%] h-[40%] bg-brand-deep rounded-full blur-[120px] opacity-60"></div>
         <div className="absolute bottom-[-10%] right-[-10%] w-[40%] h-[40%] bg-brand-cyan rounded-full blur-[150px] opacity-20"></div>
@@ -13,8 +12,6 @@ const Hero = () => {
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
-
-          {/* Left Content */}
           <div className="text-center lg:text-left">
             <div className="inline-flex items-center px-4 py-2 rounded-full bg-brand-electric/10 border border-brand-electric/30 text-brand-cyan mb-6 text-sm font-medium">
               <span className="flex h-2 w-2 rounded-full bg-brand-cyan mr-2 animate-pulse"></span>
@@ -30,8 +27,8 @@ const Hero = () => {
             </p>
 
             <div className="flex flex-col sm:flex-row items-center justify-center lg:justify-start space-y-4 sm:space-y-0 sm:space-x-4 mb-12">
-              <a href="#ung-tuyen" className="w-full sm:w-auto inline-flex items-center justify-center px-8 py-3.5 bg-brand-yellow hover:bg-brand-yellow-hover text-brand-navy font-bold rounded-full shadow-[0_0_20px_rgba(251,191,36,0.4)] transition-all hover:-translate-y-1">
-                Ứng tuyển ngay
+              <a href="#tuyen-giang-vien" className="w-full sm:w-auto inline-flex items-center justify-center px-8 py-3.5 bg-brand-yellow hover:bg-brand-yellow-hover text-white font-bold rounded-full shadow-[0_0_20px_rgba(251,191,36,0.4)] transition-all hover:-translate-y-1">
+                Vị trí tuyển dụng
               </a>
               <a href="#loi-ich" className="w-full sm:w-auto px-8 py-3.5 bg-transparent hover:bg-white/5 border border-slate-500 hover:border-white text-white font-medium rounded-full transition-all flex items-center justify-center group">
                 Tìm hiểu chương trình
@@ -39,7 +36,6 @@ const Hero = () => {
               </a>
             </div>
 
-            {/* Info Cards Row */}
             <div className="grid grid-cols-2 sm:grid-cols-4 gap-4">
               <div className="bg-white/5 border border-white/10 rounded-2xl p-4 backdrop-blur-sm flex flex-col items-center lg:items-start text-center lg:text-left hover:bg-white/10 transition-colors">
                 <MapPin className="w-6 h-6 text-brand-cyan mb-2" />
@@ -64,9 +60,7 @@ const Hero = () => {
             </div>
           </div>
 
-          {/* Right Visuals */}
           <div className="relative h-[500px] w-full hidden lg:block">
-            {/* Main Center Floating Element */}
             <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-64 h-64 bg-gradient-to-br from-brand-electric to-brand-deep rounded-3xl rotate-12 opacity-80 blur-lg animate-pulse"></div>
 
             <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-72 h-72 border border-brand-cyan/30 rounded-full flex items-center justify-center animate-[spin_20s_linear_infinite]">
@@ -74,7 +68,6 @@ const Hero = () => {
               </div>
             </div>
 
-            {/* AI Chip Card */}
             <div className="absolute top-[15%] left-[10%] bg-brand-navy/80 backdrop-blur-md border border-brand-cyan/50 p-6 rounded-2xl shadow-[0_0_30px_rgba(6,182,212,0.3)] transform -rotate-6 hover:rotate-0 transition-transform duration-500 z-20">
               <div className="flex flex-col items-center justify-center gap-3">
                 <div className="p-3 bg-brand-cyan/20 rounded-xl">
@@ -87,7 +80,6 @@ const Hero = () => {
               </div>
             </div>
 
-            {/* Shield Lock Card */}
             <div className="absolute bottom-[20%] right-[5%] bg-brand-navy/80 backdrop-blur-md border border-brand-electric/50 p-6 rounded-2xl shadow-[0_0_30px_rgba(59,130,246,0.3)] transform rotate-6 hover:rotate-0 transition-transform duration-500 z-20">
               <div className="flex flex-col items-center justify-center gap-3">
                 <div className="relative">
@@ -101,7 +93,6 @@ const Hero = () => {
               </div>
             </div>
 
-            {/* Chatbot bubble */}
             <div className="absolute top-[30%] right-[15%] bg-brand-navy/90 backdrop-blur-sm border border-brand-yellow/30 p-4 rounded-tl-2xl rounded-tr-2xl rounded-bl-2xl shadow-xl transform translate-x-4 -translate-y-4 z-20 animate-bounce" style={{ animationDuration: '3s' }}>
               <div className="flex items-center gap-3">
                 <MessageSquareText className="w-6 h-6 text-brand-yellow" />
@@ -109,7 +100,6 @@ const Hero = () => {
               </div>
             </div>
 
-            {/* Abstract Connections */}
             <svg className="absolute inset-0 w-full h-full z-10" pointerEvents="none">
               <path d="M 120 150 Q 200 250 300 350" fill="transparent" stroke="rgba(6, 182, 212, 0.2)" strokeWidth="2" strokeDasharray="5,5" className="animate-[dash_20s_linear_infinite]" />
               <path d="M 350 150 Q 250 250 150 350" fill="transparent" stroke="rgba(59, 130, 246, 0.2)" strokeWidth="2" strokeDasharray="5,5" className="animate-[dash_20s_linear_infinite_reverse]" />

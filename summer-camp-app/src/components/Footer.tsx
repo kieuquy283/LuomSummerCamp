@@ -1,13 +1,11 @@
-import React from 'react';
-import { Shield, MapPin, Phone, Globe } from 'lucide-react';
+﻿import React from 'react';
+import { MapPin, Phone, Globe } from 'lucide-react';
 
 const Footer = () => {
   return (
     <footer className="bg-slate-900 border-t border-slate-800 pt-16 pb-8">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 mb-12">
-          
-          {/* Brand */}
           <div className="lg:col-span-1">
             <div className="flex items-center flex-shrink-0 mb-6">
               <img src="/logo_round.png" alt="Logo Bình dân học vụ số" className="w-10 h-10 rounded-full object-cover mr-3" />
@@ -25,18 +23,16 @@ const Footer = () => {
             </p>
           </div>
 
-          {/* Quick Links */}
           <div>
             <h4 className="text-white font-bold mb-6 uppercase tracking-wider text-sm">Chương trình</h4>
             <ul className="space-y-3">
               <li><a href="#loi-ich" className="text-slate-400 hover:text-brand-cyan transition-colors text-sm">Tại sao nên tham gia?</a></li>
               <li><a href="#tuyen-giang-vien" className="text-slate-400 hover:text-brand-cyan transition-colors text-sm">Vị trí tuyển dụng</a></li>
-              <li><a href="#ung-tuyen" className="text-slate-400 hover:text-brand-cyan transition-colors text-sm">Cách thức ứng tuyển</a></li>
+              <li><a href="https://forms.gle/U1ryjVPUWGEJPEq27" target="_blank" rel="noopener noreferrer" className="text-slate-400 hover:text-brand-cyan transition-colors text-sm">Ứng tuyển ngay</a></li>
               <li><a href="#faq" className="text-slate-400 hover:text-brand-cyan transition-colors text-sm">Câu hỏi thường gặp</a></li>
             </ul>
           </div>
 
-          {/* Contact Info */}
           <div className="lg:col-span-2">
             <h4 className="text-white font-bold mb-6 uppercase tracking-wider text-sm">Thông tin liên hệ</h4>
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
@@ -47,7 +43,7 @@ const Footer = () => {
                   <p className="text-slate-400 text-sm">Trường THCS Tô Hiệu</p>
                 </div>
               </div>
-              
+
               <div className="flex items-start gap-3">
                 <Globe className="w-5 h-5 text-brand-cyan mt-0.5" />
                 <div>
@@ -63,13 +59,10 @@ const Footer = () => {
                   <p className="text-slate-400 text-sm">0968.397.725 (Trần Trà My)</p>
                 </div>
               </div>
-
             </div>
           </div>
-
         </div>
 
-        {/* Bottom */}
         <div className="pt-8 border-t border-slate-800 text-center md:flex md:justify-between md:text-left">
           <p className="text-slate-500 text-sm">
             &copy; {new Date().getFullYear()} Lượm - Giáo dục vì Cộng đồng. All rights reserved.

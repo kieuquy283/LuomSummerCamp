@@ -1,10 +1,9 @@
-import React from 'react';
+﻿import React from 'react';
 import Header from './components/Header';
 import Hero from './components/Hero';
 import Benefits from './components/Benefits';
 import ProgramInfo from './components/ProgramInfo';
 import InstructorRecruitment from './components/InstructorRecruitment';
-import Process from './components/Process';
 import FAQ from './components/FAQ';
 import CTA from './components/CTA';
 import Footer from './components/Footer';
@@ -17,7 +16,6 @@ function App() {
         <Hero />
         <Benefits />
         <InstructorRecruitment />
-        <Process />
         <FAQ />
         <CTA />
       </main>
@@ -27,3 +25,5 @@ function App() {
 }
 
 export default App;
+
+

@@ -1,10 +1,9 @@
-import React from 'react';
-import { Presentation, ClipboardCheck, Code2, Users, CheckCircle2, ChevronRight, GraduationCap } from 'lucide-react';
+﻿import React from 'react';
+import { Presentation, ClipboardCheck, Users, CheckCircle2, ChevronRight } from 'lucide-react';
 
 const InstructorRecruitment = () => {
   return (
     <section className="py-24 bg-brand-navy relative overflow-hidden" id="tuyen-giang-vien">
-      {/* Background Decorative */}
       <div className="absolute top-0 right-0 w-1/2 h-full bg-[url('https://www.transparenttextures.com/patterns/cubes.png')] opacity-10 mix-blend-overlay"></div>
       <div className="absolute -left-40 top-20 w-96 h-96 bg-brand-electric rounded-full blur-[150px] opacity-20"></div>
 
@@ -17,8 +16,6 @@ const InstructorRecruitment = () => {
         </div>
 
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-10">
-          
-          {/* Card 1 */}
           <div className="bg-brand-deep/40 backdrop-blur-md border border-brand-electric/30 rounded-3xl p-8 lg:p-10 shadow-2xl relative z-10 hover:border-brand-electric/60 transition-all group">
             <div className="flex items-center gap-4 mb-6">
               <div className="w-14 h-14 bg-brand-electric/20 rounded-full flex items-center justify-center flex-shrink-0">
@@ -29,7 +26,7 @@ const InstructorRecruitment = () => {
                 <p className="text-brand-cyan text-sm mt-1">Số lượng: 02 người</p>
               </div>
             </div>
-            
+
             <div className="mb-6">
               <h4 className="text-brand-yellow font-semibold mb-3 flex items-center gap-2">
                 <ClipboardCheck className="w-5 h-5" /> Nhiệm vụ:
@@ -51,7 +48,6 @@ const InstructorRecruitment = () => {
             </div>
           </div>
 
-          {/* Card 2 */}
           <div className="bg-brand-deep/40 backdrop-blur-md border border-brand-cyan/30 rounded-3xl p-8 lg:p-10 shadow-2xl relative z-10 hover:border-brand-cyan/60 transition-all group">
             <div className="flex items-center gap-4 mb-6">
               <div className="w-14 h-14 bg-brand-cyan/20 rounded-full flex items-center justify-center flex-shrink-0">
@@ -62,7 +58,7 @@ const InstructorRecruitment = () => {
                 <p className="text-brand-yellow text-sm mt-1">Số lượng: 06 người</p>
               </div>
             </div>
-            
+
             <div className="mb-6">
               <h4 className="text-brand-yellow font-semibold mb-3 flex items-center gap-2">
                 <ClipboardCheck className="w-5 h-5" /> Nhiệm vụ:
@@ -83,11 +79,10 @@ const InstructorRecruitment = () => {
               </ul>
             </div>
           </div>
-
         </div>
 
         <div className="mt-12 text-center">
-          <a href="#ung-tuyen" className="inline-flex items-center gap-2 bg-brand-yellow hover:bg-brand-yellow-hover text-brand-navy font-bold px-10 py-4 rounded-full shadow-lg transition-all hover:-translate-y-1">
+          <a href="https://forms.gle/U1ryjVPUWGEJPEq27" target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2 bg-brand-yellow hover:bg-brand-yellow-hover text-brand-navy font-bold px-10 py-4 rounded-full shadow-lg transition-all hover:-translate-y-1">
             Ứng tuyển ngay
             <ChevronRight className="w-5 h-5" />
           </a>
