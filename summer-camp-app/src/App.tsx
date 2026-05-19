@@ -16,7 +16,6 @@ function App() {
       <main>
         <Hero />
         <Benefits />
-        <ProgramInfo />
         <InstructorRecruitment />
         <Process />
         <FAQ />
