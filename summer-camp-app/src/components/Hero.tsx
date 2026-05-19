@@ -49,7 +49,7 @@ const Hero = () => {
               <div className="bg-white/5 border border-white/10 rounded-2xl p-4 backdrop-blur-sm flex flex-col items-center lg:items-start text-center lg:text-left hover:bg-white/10 transition-colors">
                 <Rocket className="w-6 h-6 text-brand-yellow mb-2" />
                 <span className="text-xs text-slate-400 font-medium">Bắt đầu</span>
-                <span className="text-sm text-white font-semibold mt-1">Giữa tháng 6</span>
+                <span className="text-sm text-white font-semibold mt-1">Giữa tháng 7</span>
               </div>
               <div className="bg-white/5 border border-white/10 rounded-2xl p-4 backdrop-blur-sm flex flex-col items-center lg:items-start text-center lg:text-left hover:bg-white/10 transition-colors">
                 <Users className="w-6 h-6 text-green-400 mb-2" />
