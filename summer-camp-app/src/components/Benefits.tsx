@@ -1,33 +1,33 @@
 import React from 'react';
-import { BrainCircuit, MessageSquare, ShieldCheck, Lightbulb } from 'lucide-react';
+import { Presentation, TrendingUp, Users, Award } from 'lucide-react';
 
 const Benefits = () => {
   const benefits = [
     {
-      icon: <BrainCircuit className="w-8 h-8 text-brand-electric" />,
-      title: 'Hiểu AI dễ dàng',
-      description: 'Làm quen với AI qua ví dụ thực tế, gần gũi, không khô khan.',
+      icon: <Presentation className="w-8 h-8 text-brand-electric" />,
+      title: 'Trải nghiệm thực chiến',
+      description: 'Trực tiếp đứng lớp, thiết kế bài giảng và hỗ trợ nâng cao năng lực số cho các em học sinh khối THCS.',
       borderColor: 'border-brand-electric',
       bgColor: 'bg-brand-electric/5'
     },
     {
-      icon: <MessageSquare className="w-8 h-8 text-brand-cyan" />,
-      title: 'Học cách dùng AI thông minh',
-      description: 'Biết đặt câu hỏi, tìm ý tưởng và hỗ trợ học tập hiệu quả.',
+      icon: <TrendingUp className="w-8 h-8 text-brand-cyan" />,
+      title: 'Phát triển kỹ năng',
+      description: 'Rèn luyện kỹ năng sư phạm thực tế, năng lực giao tiếp, làm việc nhóm và quản lý lớp học.',
       borderColor: 'border-brand-cyan',
       bgColor: 'bg-brand-cyan/5'
     },
     {
-      icon: <ShieldCheck className="w-8 h-8 text-green-500" />,
-      title: 'An toàn thông tin',
-      description: 'Nhận biết rủi ro, bảo vệ dữ liệu cá nhân và tài khoản.',
+      icon: <Users className="w-8 h-8 text-green-500" />,
+      title: 'Mở rộng kết nối',
+      description: 'Gặp gỡ, giao lưu và làm việc cùng những người bạn trẻ nhiệt huyết, chung chí hướng trong màu áo xanh tình nguyện.',
       borderColor: 'border-green-500',
       bgColor: 'bg-green-500/5'
     },
     {
-      icon: <Lightbulb className="w-8 h-8 text-brand-yellow" />,
-      title: 'Tự tin sáng tạo',
-      description: 'Thực hành mini project và thuyết trình sản phẩm cuối khóa.',
+      icon: <Award className="w-8 h-8 text-brand-yellow" />,
+      title: 'Ghi nhận đóng góp',
+      description: 'Được tập huấn trước khi tham gia và nhận Chứng nhận đóng góp tích cực cho cộng đồng từ Đoàn thanh niên phường Vĩnh Phúc.',
       borderColor: 'border-brand-yellow',
       bgColor: 'bg-brand-yellow/5'
     }
@@ -38,7 +38,7 @@ const Benefits = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center max-w-3xl mx-auto mb-16">
           <h2 className="text-3xl md:text-4xl font-bold text-brand-navy mb-4">
-            Vì sao nên tham gia?
+            Tại sao bạn nên tham gia?
           </h2>
           <div className="w-24 h-1 bg-brand-cyan mx-auto rounded-full"></div>
         </div>

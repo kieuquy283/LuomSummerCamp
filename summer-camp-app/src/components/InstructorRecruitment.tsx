@@ -1,16 +1,7 @@
 import React from 'react';
-import { Presentation, MessageCircle, FileText, Users, Network, Award, CheckCircle2, ChevronRight, Code2 } from 'lucide-react';
+import { Presentation, ClipboardCheck, Code2, Users, CheckCircle2, ChevronRight, GraduationCap } from 'lucide-react';
 
 const InstructorRecruitment = () => {
-  const benefits = [
-    { icon: <Presentation className="w-5 h-5 text-brand-cyan" />, text: 'Kinh nghiệm đứng lớp' },
-    { icon: <MessageCircle className="w-5 h-5 text-brand-cyan" />, text: 'Rèn kỹ năng giao tiếp' },
-    { icon: <FileText className="w-5 h-5 text-brand-cyan" />, text: 'Làm đẹp CV/Portfolio' },
-    { icon: <Users className="w-5 h-5 text-brand-cyan" />, text: 'Làm việc nhóm & tổ chức' },
-    { icon: <Network className="w-5 h-5 text-brand-cyan" />, text: 'Mở rộng network' },
-    { icon: <Award className="w-5 h-5 text-brand-cyan" />, text: 'Giấy chứng nhận / hỗ trợ chi phí' }
-  ];
-
   return (
     <section className="py-24 bg-brand-navy relative overflow-hidden" id="tuyen-giang-vien">
       {/* Background Decorative */}
@@ -18,56 +9,88 @@ const InstructorRecruitment = () => {
       <div className="absolute -left-40 top-20 w-96 h-96 bg-brand-electric rounded-full blur-[150px] opacity-20"></div>
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
+        <div className="text-center max-w-3xl mx-auto mb-16">
+          <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">
+            Vị trí <span className="text-brand-yellow">tuyển dụng</span>
+          </h2>
+          <div className="w-24 h-1 bg-brand-cyan mx-auto rounded-full"></div>
+        </div>
+
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-10">
           
-          {/* Left Side - Info */}
-          <div>
-            <h2 className="text-3xl md:text-4xl font-bold text-white mb-6">
-              Cơ hội dành cho <span className="text-brand-yellow">sinh viên IT</span>
-            </h2>
-            <p className="text-slate-300 text-lg mb-10 leading-relaxed">
-              Chúng tôi tìm kiếm 2–3 sinh viên CNTT/AI/An toàn thông tin đồng hành cùng chương trình để hỗ trợ giảng dạy và dẫn dắt hoạt động thực hành.
-            </p>
-
-            <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-10">
-              {benefits.map((item, idx) => (
-                <div key={idx} className="flex items-center gap-3 bg-white/5 border border-white/10 rounded-xl p-4 hover:bg-white/10 transition-colors">
-                  {item.icon}
-                  <span className="text-slate-200 text-sm font-medium">{item.text}</span>
-                </div>
-              ))}
-            </div>
-          </div>
-
-          {/* Right Side - Callout Card */}
-          <div className="relative">
-            {/* Visual element floating behind */}
-            <div className="absolute -right-8 -top-8 text-brand-cyan/20 animate-pulse">
-              <Code2 className="w-32 h-32" />
-            </div>
-
-            <div className="bg-brand-deep/40 backdrop-blur-md border border-brand-electric/30 rounded-3xl p-8 lg:p-10 shadow-2xl relative z-10">
-              <div className="flex items-center gap-4 mb-6">
-                <div className="w-14 h-14 bg-brand-yellow rounded-full flex items-center justify-center flex-shrink-0 shadow-[0_0_15px_rgba(251,191,36,0.5)]">
-                  <CheckCircle2 className="w-8 h-8 text-brand-navy" />
-                </div>
-                <div>
-                  <h3 className="text-2xl font-bold text-white">Yêu cầu cơ bản</h3>
-                  <p className="text-brand-cyan text-sm">Tham gia cùng chúng tôi</p>
-                </div>
+          {/* Card 1 */}
+          <div className="bg-brand-deep/40 backdrop-blur-md border border-brand-electric/30 rounded-3xl p-8 lg:p-10 shadow-2xl relative z-10 hover:border-brand-electric/60 transition-all group">
+            <div className="flex items-center gap-4 mb-6">
+              <div className="w-14 h-14 bg-brand-electric/20 rounded-full flex items-center justify-center flex-shrink-0">
+                <Presentation className="w-7 h-7 text-brand-electric" />
               </div>
-              
-              <p className="text-slate-300 text-lg leading-relaxed mb-8">
-                "Sinh viên năm 2+, yêu thích giáo dục công nghệ, có trách nhiệm, giao tiếp tốt."
-              </p>
+              <div>
+                <h3 className="text-xl md:text-2xl font-bold text-white leading-snug">TNV Đứng lớp & Hỗ trợ chuyên môn</h3>
+                <p className="text-brand-cyan text-sm mt-1">Số lượng: 02 người</p>
+              </div>
+            </div>
+            
+            <div className="mb-6">
+              <h4 className="text-brand-yellow font-semibold mb-3 flex items-center gap-2">
+                <ClipboardCheck className="w-5 h-5" /> Nhiệm vụ:
+              </h4>
+              <ul className="text-slate-300 space-y-2 text-sm leading-relaxed list-disc list-inside">
+                <li>Chủ trì điều phối các buổi học, trực tiếp hướng dẫn học sinh tiếp cận kiến thức và kỹ năng số.</li>
+                <li>Thiết kế, chuẩn bị tài liệu và bài giảng dưới sự định hướng của Ban tổ chức.</li>
+              </ul>
+            </div>
 
-              <button className="w-full bg-brand-yellow hover:bg-brand-yellow-hover text-brand-navy font-bold py-4 rounded-xl shadow-lg transition-all hover:-translate-y-1 flex items-center justify-center gap-2 group">
-                Ứng tuyển giảng viên
-                <ChevronRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
-              </button>
+            <div>
+              <h4 className="text-green-400 font-semibold mb-3 flex items-center gap-2">
+                <CheckCircle2 className="w-5 h-5" /> Yêu cầu:
+              </h4>
+              <ul className="text-slate-300 space-y-2 text-sm leading-relaxed">
+                <li><strong className="text-white">Thái độ:</strong> Đúng giờ, có trách nhiệm với lớp học; kiên nhẫn, nhiệt tình và thân thiện với học sinh cấp 2.</li>
+                <li><strong className="text-white">Kỹ năng:</strong> Giao tiếp tốt, truyền đạt rõ ràng. Ưu tiên sinh viên ngành Sư phạm/CNTT. Có kinh nghiệm đứng lớp là điểm cộng.</li>
+              </ul>
             </div>
           </div>
 
+          {/* Card 2 */}
+          <div className="bg-brand-deep/40 backdrop-blur-md border border-brand-cyan/30 rounded-3xl p-8 lg:p-10 shadow-2xl relative z-10 hover:border-brand-cyan/60 transition-all group">
+            <div className="flex items-center gap-4 mb-6">
+              <div className="w-14 h-14 bg-brand-cyan/20 rounded-full flex items-center justify-center flex-shrink-0">
+                <Users className="w-7 h-7 text-brand-cyan" />
+              </div>
+              <div>
+                <h3 className="text-xl md:text-2xl font-bold text-white leading-snug">TNV Trợ giảng & Điều phối lớp học</h3>
+                <p className="text-brand-yellow text-sm mt-1">Số lượng: 03 người</p>
+              </div>
+            </div>
+            
+            <div className="mb-6">
+              <h4 className="text-brand-yellow font-semibold mb-3 flex items-center gap-2">
+                <ClipboardCheck className="w-5 h-5" /> Nhiệm vụ:
+              </h4>
+              <ul className="text-slate-300 space-y-2 text-sm leading-relaxed list-disc list-inside">
+                <li>Hỗ trợ giáo viên chính quản lý lớp, hướng dẫn học sinh thực hành kỹ năng số tại chỗ.</li>
+                <li>Hỗ trợ ban hậu cần chuẩn bị thiết bị, lớp học và ghi lại những khoảnh khắc đẹp (Media).</li>
+              </ul>
+            </div>
+
+            <div>
+              <h4 className="text-green-400 font-semibold mb-3 flex items-center gap-2">
+                <CheckCircle2 className="w-5 h-5" /> Yêu cầu:
+              </h4>
+              <ul className="text-slate-300 space-y-2 text-sm leading-relaxed">
+                <li><strong className="text-white">Thái độ:</strong> Chủ động, cởi mở tiếp nhận phản hồi, tôn trọng quy trình và sẵn sàng hỗ trợ đồng đội.</li>
+                <li><strong className="text-white">Kỹ năng:</strong> Sử dụng tốt công cụ số cơ bản (Adobe Illustrator, Canva, MS Office,...); có kỹ năng tổ chức và bao quát lớp.</li>
+              </ul>
+            </div>
+          </div>
+
+        </div>
+
+        <div className="mt-12 text-center">
+          <a href="#ung-tuyen" className="inline-flex items-center gap-2 bg-brand-yellow hover:bg-brand-yellow-hover text-brand-navy font-bold px-10 py-4 rounded-full shadow-lg transition-all hover:-translate-y-1">
+            Ứng tuyển ngay
+            <ChevronRight className="w-5 h-5" />
+          </a>
         </div>
       </div>
     </section>

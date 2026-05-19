@@ -15,7 +15,7 @@ export default {
         'brand-yellow-hover': '#f59e0b',
       },
       fontFamily: {
-        sans: ['Inter', 'sans-serif'],
+        sans: ['"Be Vietnam Pro"', 'system-ui', '-apple-system', 'BlinkMacSystemFont', '"Segoe UI"', 'Roboto', 'sans-serif'],
       }
     },
   },

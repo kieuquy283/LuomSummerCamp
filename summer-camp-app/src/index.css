@@ -8,8 +8,12 @@
   }
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
-  font-family: 'Inter', sans-serif;
+  font-family: 'Be Vietnam Pro', sans-serif;
   background-color: #f8fafc;
   color: #0f172a;
 }

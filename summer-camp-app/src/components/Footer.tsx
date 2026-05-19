@@ -1,5 +1,5 @@
 import React from 'react';
-import { Shield, MapPin, Calendar, Mail, Phone } from 'lucide-react';
+import { Shield, MapPin, Phone, Globe } from 'lucide-react';
 
 const Footer = () => {
   return (
@@ -15,15 +15,15 @@ const Footer = () => {
               </div>
               <div className="flex flex-col">
                 <span className="text-white font-bold text-lg leading-tight tracking-wide">
-                  AI Smart & Safe
+                  Đội Bình dân học vụ số
                 </span>
                 <span className="text-brand-cyan text-sm font-medium leading-tight">
-                  Summer Camp
+                  Phường Vĩnh Phúc
                 </span>
               </div>
             </div>
             <p className="text-slate-400 text-sm leading-relaxed">
-              Trại hè giúp học sinh khám phá Trí tuệ nhân tạo và hình thành kỹ năng an toàn thông tin trong môi trường số.
+              Dự án giáo dục nâng cao năng lực số dành cho học sinh THCS, do Đội Bình dân học vụ số phường Vĩnh Phúc tổ chức.
             </p>
           </div>
 
@@ -31,9 +31,9 @@ const Footer = () => {
           <div>
             <h4 className="text-white font-bold mb-6 uppercase tracking-wider text-sm">Chương trình</h4>
             <ul className="space-y-3">
-              <li><a href="#" className="text-slate-400 hover:text-brand-cyan transition-colors text-sm">Giới thiệu</a></li>
-              <li><a href="#loi-ich" className="text-slate-400 hover:text-brand-cyan transition-colors text-sm">Lợi ích tham gia</a></li>
-              <li><a href="#chuong-trinh" className="text-slate-400 hover:text-brand-cyan transition-colors text-sm">Nội dung 4 tuần</a></li>
+              <li><a href="#loi-ich" className="text-slate-400 hover:text-brand-cyan transition-colors text-sm">Tại sao nên tham gia?</a></li>
+              <li><a href="#tuyen-giang-vien" className="text-slate-400 hover:text-brand-cyan transition-colors text-sm">Vị trí tuyển dụng</a></li>
+              <li><a href="#ung-tuyen" className="text-slate-400 hover:text-brand-cyan transition-colors text-sm">Cách thức ứng tuyển</a></li>
               <li><a href="#faq" className="text-slate-400 hover:text-brand-cyan transition-colors text-sm">Câu hỏi thường gặp</a></li>
             </ul>
           </div>
@@ -45,34 +45,27 @@ const Footer = () => {
               <div className="flex items-start gap-3">
                 <MapPin className="w-5 h-5 text-brand-electric mt-0.5" />
                 <div>
-                  <p className="text-slate-300 text-sm font-medium">Địa điểm</p>
-                  <p className="text-slate-400 text-sm">Trường Tiểu học Tô Hiệu</p>
+                  <p className="text-slate-300 text-sm font-medium">Địa điểm giảng dạy</p>
+                  <p className="text-slate-400 text-sm">Trường THCS Tô Hiệu</p>
                 </div>
               </div>
               
               <div className="flex items-start gap-3">
-                <Calendar className="w-5 h-5 text-brand-cyan mt-0.5" />
+                <Globe className="w-5 h-5 text-brand-cyan mt-0.5" />
                 <div>
-                  <p className="text-slate-300 text-sm font-medium">Thời gian</p>
-                  <p className="text-slate-400 text-sm">Bắt đầu từ giữa tháng 6</p>
+                  <p className="text-slate-300 text-sm font-medium">Fanpage</p>
+                  <a href="https://www.facebook.com/luom.lvcd" target="_blank" rel="noopener noreferrer" className="text-slate-400 text-sm hover:text-brand-cyan transition-colors">Lượm - Giáo dục vì Cộng đồng</a>
                 </div>
               </div>
 
-              <div className="flex items-start gap-3">
-                <Mail className="w-5 h-5 text-brand-yellow mt-0.5" />
+              <div className="flex items-start gap-3 sm:col-span-2">
+                <Phone className="w-5 h-5 text-brand-yellow mt-0.5" />
                 <div>
-                  <p className="text-slate-300 text-sm font-medium">Email</p>
-                  <p className="text-slate-400 text-sm">summercamp@example.com</p>
+                  <p className="text-slate-300 text-sm font-medium">Hotline / Zalo</p>
+                  <p className="text-slate-400 text-sm">0968.397.725 (gặp Chị Trần Trà My)</p>
                 </div>
               </div>
 
-              <div className="flex items-start gap-3">
-                <Phone className="w-5 h-5 text-green-400 mt-0.5" />
-                <div>
-                  <p className="text-slate-300 text-sm font-medium">Hotline</p>
-                  <p className="text-slate-400 text-sm">0123 456 789</p>
-                </div>
-              </div>
             </div>
           </div>
 
@@ -81,12 +74,8 @@ const Footer = () => {
         {/* Bottom */}
         <div className="pt-8 border-t border-slate-800 text-center md:flex md:justify-between md:text-left">
           <p className="text-slate-500 text-sm">
-            &copy; {new Date().getFullYear()} AI Smart & Safe Summer Camp. All rights reserved.
+            &copy; {new Date().getFullYear()} Lượm - Giáo dục vì Cộng đồng. All rights reserved.
           </p>
-          <div className="mt-4 md:mt-0 space-x-4 text-sm text-slate-500">
-            <a href="#" className="hover:text-slate-300 transition-colors">Chính sách bảo mật</a>
-            <a href="#" className="hover:text-slate-300 transition-colors">Điều khoản dịch vụ</a>
-          </div>
         </div>
       </div>
     </footer>

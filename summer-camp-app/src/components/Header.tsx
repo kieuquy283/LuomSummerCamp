@@ -6,10 +6,9 @@ const Header = () => {
 
   const navLinks = [
     { name: 'Giới thiệu', href: '#' },
-    { name: 'Chương trình', href: '#' },
-    { name: 'Lợi ích', href: '#' },
-    { name: 'Tuyển giảng viên', href: '#' },
-    { name: 'FAQ', href: '#' },
+    { name: 'Vì sao tham gia', href: '#loi-ich' },
+    { name: 'Vị trí tuyển dụng', href: '#tuyen-giang-vien' },
+    { name: 'FAQ', href: '#faq' },
   ];
 
   return (
@@ -22,11 +21,11 @@ const Header = () => {
               <Shield className="w-6 h-6 text-brand-yellow" />
             </div>
             <div className="flex flex-col">
-              <span className="text-white font-bold text-lg leading-tight tracking-wide">
-                AI Smart & Safe
+              <span className="text-white font-bold text-lg leading-tight tracking-wide uppercase">
+                Bình dân học vụ số
               </span>
               <span className="text-brand-cyan text-sm font-medium leading-tight">
-                Summer Camp
+                Phường Vĩnh Phúc
               </span>
             </div>
           </div>
@@ -46,9 +45,9 @@ const Header = () => {
 
           {/* CTA Button */}
           <div className="hidden md:flex items-center">
-            <button className="bg-brand-yellow hover:bg-brand-yellow-hover text-brand-navy font-semibold px-6 py-2.5 rounded-full shadow-[0_0_15px_rgba(251,191,36,0.3)] transition-all hover:scale-105 active:scale-95 duration-200">
-              Đăng ký ngay
-            </button>
+            <a href="#ung-tuyen" className="bg-brand-yellow hover:bg-brand-yellow-hover text-brand-navy font-semibold px-6 py-2.5 rounded-full shadow-[0_0_15px_rgba(251,191,36,0.3)] transition-all hover:scale-105 active:scale-95 duration-200">
+              Ứng tuyển ngay
+            </a>
           </div>
 
           {/* Mobile menu button */}
@@ -77,9 +76,9 @@ const Header = () => {
               </a>
             ))}
             <div className="mt-4 px-3">
-              <button className="w-full bg-brand-yellow hover:bg-brand-yellow-hover text-brand-navy font-semibold px-6 py-3 rounded-full shadow-[0_0_15px_rgba(251,191,36,0.3)] transition-all">
-                Đăng ký ngay
-              </button>
+              <a href="#ung-tuyen" className="w-full inline-block text-center bg-brand-yellow hover:bg-brand-yellow-hover text-brand-navy font-semibold px-6 py-3 rounded-full shadow-[0_0_15px_rgba(251,191,36,0.3)] transition-all">
+                Ứng tuyển ngay
+              </a>
             </div>
           </div>
         </div>

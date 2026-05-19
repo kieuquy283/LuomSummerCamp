@@ -2,7 +2,6 @@ import React from 'react';
 import Header from './components/Header';
 import Hero from './components/Hero';
 import Benefits from './components/Benefits';
-import Curriculum from './components/Curriculum';
 import ProgramInfo from './components/ProgramInfo';
 import InstructorRecruitment from './components/InstructorRecruitment';
 import Process from './components/Process';
@@ -17,7 +16,6 @@ function App() {
       <main>
         <Hero />
         <Benefits />
-        <Curriculum />
         <ProgramInfo />
         <InstructorRecruitment />
         <Process />
